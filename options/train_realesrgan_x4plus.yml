@@ -38,8 +38,8 @@ datasets:
   train:
     name: Aerial_photo
     type: RealESRGANDataset
-    dataroot_gt: /datasets/aerial_photos
-    meta_info: /notebooks/meta_info/meta_info_multiscale.txt
+    dataroot_gt: /notebooks//photoset
+    meta_info: /notebooks//photoset/meta_info/meta_info_multiscale.txt
     io_backend:
       type: disk
 
